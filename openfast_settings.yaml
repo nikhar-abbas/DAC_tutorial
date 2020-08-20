@@ -1,0 +1,26 @@
+# Variables are case sensitive.
+[Fst, TStart]          : 0.
+[Fst, TMax]            : 120.
+# [Fst, TStart]          : 0.
+# [Fst, TMax]            : 40.
+[Fst, OutFileFmt]      : 2
+[Fst, DT]              : 0.01
+
+[ServoDyn, DLL_DT]     : "Default"
+[ServoDyn, DLL_FileName]: "../BAR_00/ServoData/libdiscon.b"
+
+
+[Fst, CompElast]       : 1
+[Fst, CompSub]         : 0
+[ElastoDyn, FlapDOF1]  : "True"
+[ElastoDyn, FlapDOF2]  : "True"
+[ElastoDyn, EdgeDOF]   : "True"
+[ElastoDyn, BlPitch1]: 12
+[ElastoDyn, BlPitch2]: 12
+[ElastoDyn, BlPitch3]: 12
+
+[InflowWind, WindType] : 2
+[InflowWind, Filename] : '../BAR_00/Wind/EOG_10mps.wnd'
+
+[channels_out] : ["RootMxb1", "RootMyb1", "RootMzb1", "RootMxb2", "RootMyb2", "RootMzb2", "RootMxb3", "RootMyb3", "RootMzb3",
+                  "BLFLAP1", "BLFLAP2", "BLFLAP3"]
