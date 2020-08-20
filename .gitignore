@@ -1,0 +1,9 @@
+*.vscode
+.DS_Store
+
+# OpenFAST
+*.sum
+*.dbg 
+*.ech
+
+*WISDEM*
