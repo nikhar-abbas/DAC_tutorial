@@ -6,4 +6,9 @@
 *.dbg 
 *.ech
 
-*WISDEM*
+# XFoil
+:00.bl
+NUL
+
+# WISDEM
+outputs/
