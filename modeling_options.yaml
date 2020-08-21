@@ -17,7 +17,7 @@ yaml:
 
 xfoil:
     path       : binaries/xfoil_mac # Path to xfoil executable. Only used for blades with distributed aerodynamic control devices 
-    run_parallel: True
+    run_parallel: False
 
 rotorse:
     n_aoa: 200        # Number of angles of attack used to define polars
