@@ -5,6 +5,7 @@
 *.sum
 *.dbg 
 *.ech
+*.dbg
 
 # XFoil
 :00.bl
